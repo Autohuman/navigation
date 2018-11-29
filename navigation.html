@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+    <link href="navigation.css"  type="text/css" rel="stylesheet"/>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="haoHeader">
+  <nav class="haoNav">
+    <img class="navLogo" src="logo.jpg" />
+    <div class="haoMenu">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+
+  </nav>
+  <h1 class="h1Title">LALALALALLALa</h1>
+</header>
+  <div class="description">
+    <p class="contentP">LALALALALALLALALALALLALALLALALALALLALALLALLALALALALALALAL</p>
+    </div>
+    <script type="text/javascript">
+        $(window).on("scroll",function(){
+          if ($(window).scrollTop()) {
+            $('nav').addClass('navToBlack');
+          }
+          else {
+            $('nav').removeClass('navToBlack');
+          }
+        })
+      </script>
+</body>
+</html>
